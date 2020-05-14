@@ -1,5 +1,5 @@
 # Step:1 Ubuntu (base image)
-From ubuntu:latest
+FROM ubuntu:latest
 
 # Step:2 Nginx install
 RUN apt-get update && apt-get install -y -q nginx
